@@ -1,12 +1,17 @@
 body {
-  background-color: #fffaf0;
+  background-color: #f8f3ed;
 }
 .perfil{
   width: 20%;
   float: left;
 }
-.botonera-navegación li {  /* MEJORAR EL PADDING */
-
+.botonera-navegación{
+  margin-left: 50px;
+}
+#picture{
+  margin: 50px 100px 20px 80px;
+  width: 380px;
+  height: 240px;
 }
 .cuerpo{
   width: 80%;
@@ -14,11 +19,12 @@ body {
 }
 .primera-sección{ /* Primera parte de la presentación */
   background-color: white;
-  margin: 8px;
+  margin: 20px 90px 5px 100px;
   padding: 20px;
+  border-radius: 7px 7px 7px 7px;
 }
 #título-principal h3{ /* Título: Quien soy*/
-  color: #00e699;
+  color: #00d58f;
   text-decoration: underline;
 }
 #título-principal h1{ /* Nombre Completo */
@@ -30,41 +36,37 @@ body {
   color: #FF8C00;
   font-size: 18px;
 }
-#datos_personales{
-
-}
-#navegación {
-  background-color:
-}
 #datos_personales li { /* elementos de la lista personales*/
   font-family: Verdana, sans-serif;
   padding: 5px;
   border-bottom: 1px dotted #FF8C00;
 }
-.formación{ /* Subparte 2: Formación / Estudios*/
+.Formación{ /* Subparte 2: Formación / Estudios*/
   background-color: white;
-  margin: 8px;
-  border: 20px;
+  margin: 20px 90px 5px 100px;
+  padding: 20px;
+  border: 10px;
+  border-radius: 7px 7px 7px 7px;
 }
 #Formación-titulo{
   font-size: 18px;
-  color: #00e699;
+  color: #00d58f;
   text-decoration: underline;
 }
-h2.formación{
+h2.formación-sub{
   color: #FF8C00;
   font-size: 21px;
   padding: 5px;
 }
-p.formación{
-  font-size: 16px;
-  padding-bottom: 10px;
+p.formación-parf{
+  font-size: 15px;
 }
 .Experiencia{ /* Subparte 3: Experiencia laobral*/
   background-color: white;
-  margin: 8px;
+  margin: 20px 90px 5px 100px;
   padding: 20px;
   border: 10px;
+  border-radius: 7px 7px 7px 7px;
 }
 #titulo-exp{
   font-size: 18px;
@@ -78,9 +80,10 @@ h2.experiencia-1{
 }
 .portfolio{
   background-color: white;
-  margin: 8px;
+  margin: 20px 80px 5px 80px;
   padding: 20px;
   border: 10px;
+  border-radius: 7px 7px 7px 7px;
 }
 #Portfolio{ /* Título Portfolio */
 

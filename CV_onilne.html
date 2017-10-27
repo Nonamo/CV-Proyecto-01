@@ -13,18 +13,6 @@
     <script type="text/javascript" src="proyecto-cv/js/jquery.min.js"></script>
     <script type="text/javascript" src="proyecto-cv/js/unslider.js"></script>
 
-    <!-- acá está el script copiado-->
-    <script>
-    jQuery(document).ready(function($) {
-      $('.slider').unslider({
-        arrows: false,
-        autoplay: true
-
-      });
-    });
-  </script>
-  <!-- Acá termina el script-->
-
 </head>
 <!-- Aca termina el encabezado de la pagina -->
 
@@ -33,7 +21,8 @@
 
 <div class="perfil"> <!-- perfil: etiqueta para diferenciar de la otra mitad de la página -->
 
-  <img id="picture" src="foto_CV.JPG" width="350" height="300" />
+  <!-- foto perfil -->
+  <img id="picture" src="foto_CV.JPG"/>
 
   <div class="botonera-navegación">
     <ul>
@@ -74,32 +63,33 @@
 
   </div>
 
-  <div class="formación">
+  <div class="Formación">
+
     <h1 id="Formación-titulo"> Formación </h1>
 
-      <h2 class="formación"> Bachiller Escuela Manuel Belgrano </h2>
-      <p class="formación">Título con orientación a Humanidades.</p>
+      <h2 class="formación-sub"> Bachiller Escuela Manuel Belgrano </h2>
+      <p class="formación-parf">Título con orientación a Humanidades.</p>
 
-      <h2 class="formación">Instituto Lenguas Vivas</h2>
-      <p class="formación">Cursé 6 años de Inglés.
+      <h2 class="formación-sub">Instituto Lenguas Vivas</h2>
+      <p class="formación-parf">Cursé 6 años de Inglés.
 
-      <h2 class="formación">Instituto Cambridge</h2>
-      <p class="formación">Cursé 1 año de Inglés</p>
+      <h2 class="formación-sub">Instituto Cambridge</h2>
+      <p class="formación-parf">Cursé 1 año de Inglés</p>
 
-      <h2 class="formación">ISA Escuela de Guardavidas</h2>
-      <p class="formación">Poseo conocimientos en RCP, y técnicas de salvataje en el agua.</p>
+      <h2 class="formación-sub">ISA Escuela de Guardavidas</h2>
+      <p class="formación-parf">Poseo conocimientos en RCP, y técnicas de salvataje en el agua.</p>
 
-      <h2 class="formación">Técnico Superior en Programación</h2>
-      <p class="formación">Actualmente estoy cursando la carrera en la UTN de Mar del Plata.</p>
+      <h2 class="formación-sub">Técnico Superior en Programación</h2>
+      <p class="formación-parf">Actualmente estoy cursando la carrera en la UTN de Mar del Plata.</p>
 
-      <h2 class="formación">Grabación y Edición U.C. Dadson School</h2>
-      <p class="formación">Poseo conocimientos básicos para grabar y editar voces e instrumentos.</p>
+      <h2 class="formación-sub">Grabación y Edición U.C. Dadson School</h2>
+      <p class="formación-parf">Poseo conocimientos básicos para grabar y editar voces e instrumentos.</p>
 
-      <h2 class="formación">Reparación de PC HILET</h2>
-      <p class="formación">Conocimientos en reparación de PC, Notebook, sist. operativos, etc.</p>
+      <h2 class="formación-sub">Reparación de PC HILET</h2>
+      <p class="formación-parf">Conocimientos en reparación de PC, Notebook, sist. operativos, etc.</p>
 
-      <h2 class="formación">Curso HTML 5 - Acámica</h2>
-      <p class="formación">Poseo conocimientos en HTML, CSS y Java.
+      <h2 class="formación-sub">Curso HTML 5 - Acámica</h2>
+      <p class="formación-parf">Poseo conocimientos en HTML, CSS y Java.
   </div>
 
   <div class="Experiencia">
@@ -133,6 +123,17 @@
 
 </div> <!-- y acá termina el CUERPO -->
 
+<!--SCRIPT JQUERY COPIADO: INICIO -->
+  <script>
+      jQuery(document).ready(function($) {
+        $('.slider').unslider({
+          arrows: false,
+          autoplay: true
+
+        });
+      });
+    </script>
+<!--SCRIPT JQUERY COPIADO: FIN -->
 </body>
 <!-- Aca termina el cuerpo de la pagina -->
 </html>
