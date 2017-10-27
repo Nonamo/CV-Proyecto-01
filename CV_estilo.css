@@ -4,15 +4,9 @@ body {
 .perfil{
   width: 20%;
   float: left;
-  margin-right: 5%;
 }
 .botonera-navegación li {  /* MEJORAR EL PADDING */
-  background-color: #ffd480;
-  padding: 5%;
-  border: 1px solid #ffd480;
-  margin: 2%;
-  border-radius: 45px;
-  font-family: 'Helvetica', sans-serif;
+
 }
 .cuerpo{
   width: 80%;
@@ -82,11 +76,14 @@ h2.experiencia-1{
   font-size: 21px;
   padding: 5px;
 }
-#Portfolio{ /* Cada proyecto terminado, subirlo acá */
-
-  color: #FF8C00;
-  text-decoration: underline;
+.portfolio{
   background-color: white;
   margin: 8px;
   padding: 20px;
+  border: 10px;
+}
+#Portfolio{ /* Título Portfolio */
+
+  color: #FF8C00;
+  text-decoration: underline;
 }
