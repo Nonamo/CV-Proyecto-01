@@ -2,7 +2,7 @@ body {
   background-color: #fffaf0;
 }
 .perfil{
-  width: 25%;
+  width: 20%;
   float: left;
   margin-right: 5%;
 }
@@ -15,7 +15,7 @@ body {
   font-family: 'Helvetica', sans-serif;
 }
 .cuerpo{
-  width: 70%;
+  width: 80%;
   float: right;
 }
 .primera-sección{ /* Primera parte de la presentación */
@@ -82,7 +82,7 @@ h2.experiencia-1{
   font-size: 21px;
   padding: 5px;
 }
-h1.portfolio{ /* Cada proyecto terminado, subirlo acá */
+#Portfolio{ /* Cada proyecto terminado, subirlo acá */
 
   color: #FF8C00;
   text-decoration: underline;
