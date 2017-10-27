@@ -23,6 +23,9 @@ body {
   padding: 20px;
   border-radius: 7px 7px 7px 7px;
 }
+.botonera{
+  color: #FF8C00;
+}
 #título-principal h3{ /* Título: Quien soy*/
   color: #00d58f;
   text-decoration: underline;
@@ -80,7 +83,7 @@ h2.experiencia-1{
 }
 .portfolio{
   background-color: white;
-  margin: 20px 80px 5px 80px;
+  margin: 20px 90px 5px 100px;
   padding: 20px;
   border: 10px;
   border-radius: 7px 7px 7px 7px;
