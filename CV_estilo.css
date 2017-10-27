@@ -44,6 +44,12 @@ body {
   padding: 5px;
   border-bottom: 1px dotted #FF8C00;
 }
+li.personal-data{
+  color: #4d2600;
+}
+p.primer-texto{
+  color: #4d2600;
+}
 .Formación{ /* Subparte 2: Formación / Estudios*/
   background-color: white;
   margin: 20px 90px 5px 100px;
@@ -63,6 +69,7 @@ h2.formación-sub{
 }
 p.formación-parf{
   font-size: 15px;
+  color: #4d2600;
 }
 .Experiencia{ /* Subparte 3: Experiencia laobral*/
   background-color: white;
@@ -81,6 +88,9 @@ h2.experiencia-1{
   font-size: 21px;
   padding: 5px;
 }
+p.experiencia-texto{
+  color: #4d2600;
+}
 .portfolio{
   background-color: white;
   margin: 20px 90px 5px 100px;
@@ -89,7 +99,9 @@ h2.experiencia-1{
   border-radius: 7px 7px 7px 7px;
 }
 #Portfolio{ /* Título Portfolio */
-
   color: #FF8C00;
   text-decoration: underline;
+}
+li.elemento.proyectos{
+  color: #4d2600;
 }
