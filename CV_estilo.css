@@ -28,11 +28,18 @@ body {
 }
 #título-principal h3{ /* Título: Quien soy*/
   color: #00d58f;
-  text-decoration: underline;
+  border-bottom: thick solid;
+  font-size: 25px;
 }
 #título-principal h1{ /* Nombre Completo */
-   color: #000099;
-   font-family: Garamond, serif;
+   color: #006bb3;
+   font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	 font-size: 67px;
+	 font-style: normal;
+	 font-variant: normal;
+	 font-weight: 100;
+	 line-height: 26.4px;
+}
    font-size: 38px;
 }
 #título-principal h4{ /* Front-End Jr.*/
@@ -58,9 +65,9 @@ p.primer-texto{
   border-radius: 36px 36px 36px 36px;
 }
 #Formación-titulo{
-  font-size: 18px;
+  font-size: 28px;
   color: #00d58f;
-  text-decoration: underline;
+  border-bottom: thick solid;
 }
 h2.formación-sub{
   color: #FF8C00;
@@ -79,9 +86,9 @@ p.formación-parf{
   border-radius: 36px 36px 36px 36px;
 }
 #titulo-exp{
-  font-size: 18px;
+  font-size: 28px;
   color: #00e699;
-  text-decoration: underline;
+  border-bottom: thick solid;
 }
 h2.experiencia-1{
   color: #FF8C00;
@@ -99,8 +106,8 @@ p.experiencia-texto{
   border-radius: 36px 36px 36px 36px;
 }
 #Portfolio{ /* Título Portfolio */
-  color: #FF8C00;
-  text-decoration: underline;
+  color: #00e699;
+  border-bottom: thick solid;
 }
 li.elemento.proyectos{
   color: #4d2600;
