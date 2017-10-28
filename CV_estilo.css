@@ -21,7 +21,7 @@ body {
   background-color: white;
   margin: 20px 90px 5px 100px;
   padding: 20px;
-  border-radius: 7px 7px 7px 7px;
+  border-radius: 36px 36px 36px 36px;
 }
 .botonera{
   color: #FF8C00;
@@ -55,7 +55,7 @@ p.primer-texto{
   margin: 20px 90px 5px 100px;
   padding: 20px;
   border: 10px;
-  border-radius: 7px 7px 7px 7px;
+  border-radius: 36px 36px 36px 36px;
 }
 #Formación-titulo{
   font-size: 18px;
@@ -76,7 +76,7 @@ p.formación-parf{
   margin: 20px 90px 5px 100px;
   padding: 20px;
   border: 10px;
-  border-radius: 7px 7px 7px 7px;
+  border-radius: 36px 36px 36px 36px;
 }
 #titulo-exp{
   font-size: 18px;
@@ -96,7 +96,7 @@ p.experiencia-texto{
   margin: 20px 90px 5px 100px;
   padding: 20px;
   border: 10px;
-  border-radius: 7px 7px 7px 7px;
+  border-radius: 36px 36px 36px 36px;
 }
 #Portfolio{ /* Título Portfolio */
   color: #FF8C00;
